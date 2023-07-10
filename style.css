@@ -48,7 +48,7 @@
 
 }
 .btn{
-    padding:10 px 20px;
+    padding:10px 20px;
     border:none;
 }
 .bg-primary{
@@ -113,11 +113,47 @@
 .apointment-container{
     display: flex;
     justify-content: space-around ;
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding: 20px;
     background-color: red;
     border-radius: 10px;
-    margin: 30px;
+    margin-top:-30px;
     align-items: center;
+}
+.blog-container{
+    width:80%;
+   height:650px;
+    margin: auto;
+    background-color: gray;
+    padding: 10px;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+
+}
+.card{
+    width:220px;
+    height:300px;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+
+    
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
 }
